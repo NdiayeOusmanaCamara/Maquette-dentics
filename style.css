@@ -349,6 +349,7 @@ position: relative;
    
    
 }
+/* section help  */
 .help{
    
     background-color: #007bff;
@@ -492,8 +493,6 @@ c/*omment section css*/
     flex-wrap: wrap;
     
     height:120vh;
-    /* margin-left: 100px; */
-    /* margin-bottom:400px; */
     background-color: #f8fafc;
    
     margin-top: 90px;
@@ -512,6 +511,7 @@ c/*omment section css*/
     font-size: 20px;
     width: 10%;
     padding:0;
+    margin-top: 150px;
    
    
 }
@@ -519,15 +519,17 @@ c/*omment section css*/
     width: 700%;
     margin-left: 120px;
     margin-bottom: 40px;
+    position: relative;
 }
 .comments .d{
     margin-right: 200px;
-    font-size: 30px;
+    font-size: 29px;
     width: 80%;
-    margin-top:20px;
+    margin-top:120px;
     height: 5vh;
     display: flex;
     justify-content: space-between;
+    position: absolute;
    
 
 }
@@ -549,7 +551,6 @@ c/*omment section css*/
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    /* bottom: 20px; */
     margin-left: 10px;
     justify-items: center;
     align-items: center;
@@ -592,6 +593,7 @@ c/*omment section css*/
     transition: transform 0.05s;
 
 }
+/* section customer */
 .customer{
 display: flex;
 justify-content: space-between;
@@ -631,7 +633,7 @@ padding-left: 40px;
 }
 
 
-/* reservation css */
+/* section reservation  */
 
 .contact{
     display: flex;
@@ -652,10 +654,30 @@ padding-left: 40px;
     margin-right: 150px;
    padding: 40px;
    height: 95vh;
-   /* display: flex;
-   justify-content: space-around; */
+  
  
   
+}
+#eservation h2{
+    font-size: 25px;
+    margin-left: 80px;
+}
+#reservation .title div{
+    font-size: 30px;
+    margin-right:100px;
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 60px;
+  
+    
+   
+   
+}
+#reservation .title div hr{
+    width: 200%;
+    
 }
 .c{
     display: flex;
@@ -664,18 +686,10 @@ padding-left: 40px;
    
 }
 
-.c hr{
-    width: 800px;
-    margin-left: 100px;
-  
-}
-.c h1{
-    padding-bottom: 90px;
-}
+
 
 .right .f{
     display: flex;
-    /* justify-content: space-between; */
     font-size: 15px;
     font-size: small;
     padding-top: 10px;
@@ -734,9 +748,8 @@ padding-left: 40px;
 }
 #Subscribe{
     background-color: #f8fafc;
-    width: 90%;
+    width: 100%;
     height: 50vh;
-    margin-left: 70px;
     text-align: center;
     padding-top: 50px;
    
@@ -753,7 +766,7 @@ padding-left: 40px;
     font-size: 35px;
     padding-top: 20px;
     width: 80vh;
-    margin-left: 0px;
+    margin-left: 300px;
    
 }
 
@@ -785,7 +798,8 @@ padding-left: 40px;
 /* footer css*/
 
 footer{
-    background-color: rgba(0,0,0,0.0 5);
+    /* background-color: rgba(0,0,0,0.0 5); */
+
 }
 .services_list{
     padding: 10px 10%;
@@ -795,21 +809,23 @@ footer{
     flex-wrap: wrap;
     background-color: #007bff;
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     color: #fff;
-    padding-bottom:40px ;
+    font-size: 20;
+    
 
    
 }
 .service img {
     width: 40%;
     color:#ffff;
-    font-size: 2px;
-    padding-bottom: 40px;
-    height: 90px;
+    font-size: 15px;
+    /* padding-bottom: 40px; */
+    height:10vh;
     background-color: transparent;
     padding: 10px;
     margin-bottom:10px ;
+    filter: brightness(0) invert(1);
 }
 .services_list .t1{
     display: flex;
@@ -831,11 +847,32 @@ footer{
     font-size: 10px;
     color: #ffffffff;
     border-right: 1px solid #ffff;
+    outline: none;
 }
 .t{
 margin: 40px;
 
     
+}
+.t1 p{
+    margin-top: 20px;
+}
+.t1 h2{
+    margin-top: 20px;
+}
+.t2 h6{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.t2 p{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+.t3{
+    font-size: 20px;
 }
 .service p{
     color:#ffffff;
@@ -849,19 +886,12 @@ margin: 40px;
     text-align: center;
     font-size: 15px;
     padding-top: 15px;
-    width: 200%;
     background-color:#273e60 ;
-    height: 10vh;
     border-radius: 10px;
+    width: 100%;
 }
 
-.footer_text span{
-    color: #27ae60;
-}
-.toggle_menu{
-    display: none;
 
-}
 
 
 
