@@ -864,10 +864,10 @@ padding-left: 40px;
 .services_list .t2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 25px auto;
+    justify-content: space-between;
+    margin: 25px ;
     font-size: 10px;
+    padding: 20px;
     color: #ffffffff;
     border-right: 1px solid #ffff;
     outline: none;
@@ -877,25 +877,19 @@ margin: 40px;
 
     
 }
+.t2{
+    padding: 20px;
+}
+
 .t1 p{
     margin-top: 20px;
 }
 .t1 h2{
     margin-top: 20px;
 }
-.t2 h6{
-    font-size: 15px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-}
-.t2 p{
-    font-size: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 60px;
-}
+
 .t3{
-    font-size: 20px;
+    font-size: 10px;
 }
 .service p{
     color:#ffffff;
@@ -912,6 +906,7 @@ margin: 40px;
     background-color:#273e60 ;
     border-radius: 10px;
     width: 100%;
+    color:#ffffff;
 }
 
 
