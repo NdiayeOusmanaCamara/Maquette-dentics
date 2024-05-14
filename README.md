@@ -20,6 +20,6 @@ Dans cette section, vous pouvez lire les témoignages de nos patients satisfaits
 
 
 - En plus des sections principales mentionnées ci-dessus, notre site web comprend également :
-Barre de navigation (Header) : Permet une navigation facile entre les différentes sections du site.
+* Barre de navigation (Header) : Permet une navigation facile entre les différentes sections du site.
 
-Pied de page (Footer) : Comprend des informations de contact, des liens vers nos réseaux sociaux et des liens vers d'autres pages importantes du site.
+* Pied de page (Footer) : Comprend des informations de contact, des liens vers nos réseaux sociaux et des liens vers d'autres pages importantes du site.
