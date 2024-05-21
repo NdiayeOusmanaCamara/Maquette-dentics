@@ -27,15 +27,13 @@ body{
 .p-bas{
     display: flex;
     justify-content: space-evenly;
-    background-color: #007bff;
+    background-color: #516eff;
     padding: 40px;
     width: 100%;
     color: #ffffff;
     font-size: 15px;
     align-items: center;
     border-radius: 10px;
-    margin-left: 0px;
-    margin-top: 150px;
 
   
 }
@@ -139,13 +137,25 @@ header{
 margin-top: 110px;
 display: flex;
 align-items: center;
-margin-left: 10%;
-margin-right: 10%;
+/* margin-left: 10%;
+margin-right: 10%; */
 height:400px;
 justify-content: space-between;
 padding-top: 40px;
+width: 100%;
 
 }
+#home1{
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:400px;
+    justify-content: space-between;
+    padding-top: 40px;
+   
+    }
 #home .left{
     width: 40%;
     height: 100%;
@@ -156,14 +166,14 @@ padding-top: 40px;
    
     
 }
-#home .left h4 {
+#home1 .left h4 {
     font-size: 20px;
     color: #27ae60;
 }
-#home .left h1 {
+#home1 .left h1 {
     font-size: 40px;
 }
-#home .left p {
+#home1 .left p {
     font-size: 12px;
     color: #999;
     width:250px;
@@ -192,14 +202,14 @@ padding-top: 40px;
 
 }
 
-#home .right {
+#home1 .right {
     width: 600px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#home .right img {
+#home1 .right img {
     width: 100%;
   
 }
@@ -309,7 +319,7 @@ position: relative;
 .dishes{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
     justify-items: center;
     margin-left: 10px;
@@ -352,7 +362,7 @@ position: relative;
 /* section help  */
 .help{
    
-    background-color: #007bff;
+    background-color: #516EFF;
     padding: 40px;
     width: 100%;
     color: #ffffff;
@@ -382,7 +392,7 @@ justify-items: center;
     width: 300px;
     padding:  10px;
     justify-items: center;
-    background-color: #007bff;
+    background-color: #516EFF;
     color: #ffff;
     margin-left: 46px;
     font-size: 25px;
@@ -392,12 +402,12 @@ justify-items: center;
 }
 .tn button:hover{
     margin-top: 40px;
-    border:1px solid#0056b3;
+    border:1px solid #516EFF;
     width: 300px;
     padding:  10px;
     justify-items: center;
     background-color: #ffffff;
-    color:#007bff;
+    color: #516EFF;
     margin-left: 46px;
     font-size: 25px;
     border-radius: 10px;
@@ -570,6 +580,37 @@ c/*omment section css*/
     padding-top: 10px;
     
  }
+ .w{
+    margin-top: 60px;
+ }
+ #menu .titles{
+width: 80%;
+display: flex;
+justify-content: end;
+flex-direction: column;
+
+ }
+ #menu .titles h1{
+    display: flex;
+    justify-content: end;
+
+ }
+ #menu .title1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+ }
+.m1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+   
+ }
+
+ .r{
+    display: flex;
+    justify-content: space-between;
+ }
 .btn  button{
     margin-top: 10px;
     color: #007bff;
@@ -589,7 +630,8 @@ c/*omment section css*/
  .btn  button:hover{
     color: #f8fafc;
     background-color: #0056b3; 
-    transition: transform 0.05s;
+    transition: transform 0.01
+    s;
 
 }
 /* section customer */
@@ -598,7 +640,7 @@ display: flex;
 justify-content: space-between;
 
 width: 100%;
-background-color: #007bff; 
+background-color: #516EFF; 
 position: relative;
  margin-bottom: 159px;
  height: 400px;
@@ -611,6 +653,14 @@ position: relative;
 .customer .left h1{
     display: flex;
     justify-content: center;
+}
+.customer button{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
 }
 
 .customer .left{
@@ -626,6 +676,13 @@ color: #ffffffff;
 margin-right:350px;
 width: 80%;
 padding-left: 40px;
+}
+.customer .right button{
+    display: flex;
+    font-size: 60px;
+    width: 100%;
+    justify-content:center;
+    margin-top: 20px;
 }
 .customer .right h2{
     font-size: 30px;
@@ -745,7 +802,7 @@ padding-left: 40px;
 #reservation form input[type="submit"]{
     margin-top: 15px;
     color: #ffffff;
-    background-color: #007bff;
+    background-color: #516EFF;
 
     padding: 10px;
     width: 90%;
@@ -774,19 +831,17 @@ padding-left: 40px;
 .Sub{
     background-color: #216583;
     height: 30vh;
-    width: 80%;
+    width: 90%;
   justify-content: space-between;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 #Subscribe h1{
     color: #ffffFF;
     font-size: 35px;
     padding-top: 20px;
-    width: 80%;
     text-align: center;
-    margin-left: 60px;
-   
+
 }
 .inp{
          
@@ -809,7 +864,7 @@ padding-left: 40px;
     padding:10px;
     text-align: center;
     border-radius: 10px;
-    color: #0056b3;
+    color: black ;
     font-size: 15px;
     margin: 10px;
     width: 200px;
@@ -842,7 +897,7 @@ padding-left: 40px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #007bff;
+    background-color: #516eff;
     width: 100%;
     height: 40vh;
     color: #fff;
