@@ -130,8 +130,9 @@ header{
 .menu li a:hover{
    padding: 10px;
    border-radius: 10px;
-   width: 250px;
+   /* width: 250px; */
    margin: 20px;
+   color: #0056b3;
 }
 #home{
 display: flex;
@@ -143,8 +144,6 @@ width: 100%;
 #home1{
     display: flex;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
     height:400px;
     justify-content: center;
     padding-top: 40px;
@@ -206,8 +205,8 @@ width: 100%;
 }
 
 #home1 .right {
-    width: 600px;
-    height: 100%;
+    width: 450px;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -610,30 +609,30 @@ flex-direction: column;
  .btn  button:hover{
     color: #f8fafc;
     background-color: #0056b3; 
-    transition: transform 0.01
-    s;
+    transition: transform 0.01s;
 
 }
 /* section customer */
 .customer{
 display: flex;
-justify-content: space-between;
+justify-content: center;
 
 width: 100%;
 background-color: #516EFF; 
-position: relative;
- margin-bottom: 159px;
- height: 400px;
+position: relative; 
+ padding: 40px; 
  
- padding: 40px;
- 
-
-
 }
 .customer .left h1{
     display: flex;
     justify-content: center;
     font-size: 20px;
+}
+.customer .left img {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    width: 100%;
 }
 .customer button{
     display: flex;
@@ -645,18 +644,19 @@ position: relative;
 }
 
 .customer .left{
-width: 450px;
+width: 300px;
 height:300px;
-padding: 10px;
+padding: 20px;
 background-color: #ffffff;
-margin-left: 200px;
 border-radius: 20px;
 }
+
 .customer .right{
 color: #ffffffff;
-margin-right:350px;
 width: 80%;
-padding-left: 40px;
+display: flex;
+justify-content: center;
+justify-items: center;
 }
 .customer .right button{
     display: flex;
@@ -679,7 +679,7 @@ padding-left: 40px;
 .contact{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 80vh;
     width: 90%;
     margin-left: 100px;
 }
