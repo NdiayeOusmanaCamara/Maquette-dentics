@@ -6,10 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-section{
-    margin-top: 50px;
-}
-
 body{
     position: relative;
     font-family: 'Poppins', sans-serif;
@@ -21,6 +17,9 @@ body{
     color:#bcbcbc9e;
     font-size: 50px;
     
+}
+section{
+    margin-top: 50px;
 }
   
 
@@ -34,6 +33,7 @@ body{
     font-size: 15px;
     align-items: center;
     border-radius: 10px;
+    margin-top: 50px;
 
   
 }
@@ -134,19 +134,13 @@ header{
    margin: 20px;
 }
 #home{
-margin-top: 110px;
 display: flex;
 align-items: center;
-/* margin-left: 10%;
-margin-right: 10%; */
-height:400px;
 justify-content: space-between;
-padding-top: 40px;
 width: 100%;
 
 }
 #home1{
-    margin-top: 110px;
     display: flex;
     align-items: center;
     margin-left: 10%;
@@ -244,8 +238,7 @@ width: 100%;
     width: 100%;
     background-color: #ffffff; 
     position: relative;
-   
-     margin-bottom: 159px;
+    margin-top: -80px;
      height: 500px;
 
     
@@ -384,7 +377,6 @@ position: relative;
     font-size: 15px;
     align-items: center;
     border-radius: 10px;
-    margin-top: 150px;
     text-align: center;
     
     
@@ -434,9 +426,7 @@ justify-items: center;
 #about_us{
     display: flex;
     align-items: center;
-    height: calc(100vh - 50px);
     flex-direction: column;
-    padding: 50px 10%;
     width:100% ;
 }
 .about {
@@ -526,9 +516,7 @@ c/*omment section css*/
     width: 900px;
 
 }
-/* .title1{
-    margin-top: 40px;
-} */
+
 .w2 h1{
     font-size: 35px;
     margin-bottom: 20px;
@@ -538,6 +526,9 @@ c/*omment section css*/
     justify-content: flex-end;
     font-size: 35px;
     
+}
+.w{
+    margin-top: 60px;
 }
 
 
