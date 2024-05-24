@@ -505,13 +505,24 @@ c/*omment section css*/
     margin-right: 10%;
     position: relative;
 }
+.w2 .w3{
+    display: flex;
+    justify-content: space-between;
+}
+.w2 .w3 h1{
+    margin-bottom: 0;
+}
+.w2 .w3 .w4 h1{
+    display: flex;
+    justify-content: end;
+}
 .w2 hr{
     width: 900px;
 
 }
-.title1{
+/* .title1{
     margin-top: 40px;
-}
+} */
 .w2 h1{
     font-size: 35px;
     margin-bottom: 20px;
