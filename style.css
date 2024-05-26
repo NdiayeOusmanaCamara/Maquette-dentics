@@ -173,7 +173,7 @@ width: 100%;
     width:250px;
     padding-top: 20px;
 }
-.Btn  button{
+.btn  button{
     margin-top: 50px;
     color: #333;
     font-size: 35px;
@@ -191,13 +191,13 @@ width: 100%;
 
     
  }
- .Btn{
+ .btn{
     display: flex;
     justify-content: center;
     gap: 20px;
     text-align: center;
  }
- .Btn  button:hover{
+ .btn  button:hover{
     color: #f8fafc;
     background-color: #0056b3; 
    
@@ -800,7 +800,7 @@ justify-items: center;
         border: 1px solid #007bff;
     
 }
-#Subscribe{
+#subscribe{
     background-color: #f8fafc;
     width: 100%;
     height: 50vh;
@@ -809,7 +809,7 @@ justify-items: center;
    
    
 }
-.Sub{
+.sub{
     background-color: #216583;
     height: 30vh;
     width: 90%;
@@ -817,7 +817,7 @@ justify-items: center;
     border-radius: 20px;
     margin-left: 90px;
 }
-#Subscribe h1{
+#subscribe h1{
     color: #ffffFF;
     font-size: 35px;
     padding-top: 20px;
